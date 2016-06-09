@@ -1,6 +1,16 @@
 body {
-
+	width: 1000px;
+	margin: 0 auto;
 }
+
+.currentContact {
+	float: right;
+}
+
+div {
+	width: 500px;
+}
+
 
 h1 {
 

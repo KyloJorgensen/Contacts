@@ -6,21 +6,48 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Contacts</h1>
-	<h2>Add a Contact:</h2>
-	<p>Frist Name:</p>
-	<input type="text" id="firstName">
-	<p>Last Name:</p>
-	<input type="text" id="lastName">
-	<p>Phone Number:</p>
-	<input type="text" id="phone">
-	<p>Street:</p>
-	<input type="text" id="street">
-	<p>City:</p>
-	<input type="text" id="city">
-	<p>State:</p>
-	<input type="text" id="state">
-	<button class="add">Add</button>
+	<main>
+		<div class="currentContact">
+			<h2 class="fullName">name name </h3>
+			<p>Frist Name:</p>
+			<p class="firstName"></p>
+			<p>Last Name:</p>
+			<p class="lastName"></p>
+			<p>Phone Number:</p>
+			<p class="phone"></p>
+			<p>Street:</p>
+			<p class="street"></p>
+			<p>City:</p>
+			<p class="city"></p>
+			<p>State:</p>
+			<p class="state"></p>
+		</div>
+		<!-- current contact -->
+		<div>
+			<h1>Contacts</h1>
+			<h2>Add a Contact:</h2>
+			<p>Frist Name:</p>
+			<input type="text" class="contactInfo" id="firstName">
+			<p>Last Name:</p>
+			<input type="text" class="contactInfo" id="lastName">
+			<p>Phone Number:</p>
+			<input type="text" class="contactInfo" id="phone">
+			<p>Street:</p>
+			<input type="text" class="contactInfo" id="street">
+			<p>City:</p>
+			<input type="text" class="contactInfo" id="city">
+			<p>State:</p>
+			<input type="text" class="contactInfo" id="state">
+			<button class="add">Add</button>
+		</div>
+		<!-- input field for a new contact -->
+	</main>
+	<!-- main -->
+	<section>
+		<h2>Contacts: </h2>
+		<ul></ul>
+	</section>
+	<!-- section list of contacts all ready added -->
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
